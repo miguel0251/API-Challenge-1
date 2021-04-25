@@ -27,38 +27,38 @@ const displayDrivers = (drivers) => {
       wrapper.appendChild(card)
    }
    
-   for (let driver of drivers) {
-      console.log(driver.givenName)
-      let card = document.createElement ("div")
-      let card_header = document.createElement ("div")
-      let card_body = document.createElement ("div")
-      card_header.innerText= driver.givenName
-      card.appendChild(card_header)
-      card.appendChild (card_body)
-      wrapper.appendChild(card)
-   }
+   // for (let driver of drivers) {
+   //    console.log(driver.givenName)
+   //    let card = document.createElement ("div")
+   //    let card_header = document.createElement ("div")
+   //    let card_body = document.createElement ("div")
+   //    card_header.innerText= driver.givenName
+   //    card.appendChild(card_header)
+   //    card.appendChild (card_body)
+   //    wrapper.appendChild(card)
+   // }
    
-   for (let driver of drivers) {
-      console.log(driver.nationality)
-      let card = document.createElement ("div")
-      let card_header = document.createElement ("div")
-      let card_body = document.createElement ("div")
-      card_header.innerText= driver.nationality
-      card.appendChild(card_header)
-      card.appendChild (card_body)
-      wrapper.appendChild(card)
-   }
+   // for (let driver of drivers) {
+   //    console.log(driver.nationality)
+   //    let card = document.createElement ("div")
+   //    let card_header = document.createElement ("div")
+   //    let card_body = document.createElement ("div")
+   //    card_header.innerText= driver.nationality
+   //    card.appendChild(card_header)
+   //    card.appendChild (card_body)
+   //    wrapper.appendChild(card)
+   // }
 
-   for (let driver of drivers) {
-      console.log(driver.url)
-      let card = document.createElement ("div")
-      let card_header = document.createElement ("div")
-      let card_body = document.createElement ("div")
-      card_header.innerText= driver.url
-      card.appendChild(card_header)
-      card.appendChild (card_body)
-      wrapper.appendChild(card)
-   }
+   // for (let driver of drivers) {
+   //    console.log(driver.url)
+   //    let card = document.createElement ("div")
+   //    let card_header = document.createElement ("div")
+   //    let card_body = document.createElement ("div")
+   //    card_header.innerText= driver.url
+   //    card.appendChild(card_header)
+   //    card.appendChild (card_body)
+   //    wrapper.appendChild(card)
+   // }
 
    
 }  

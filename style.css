@@ -1,6 +1,21 @@
-header {
+body{
+   background-image: url(./assets/michael-heng-_oTPU8hXbKk-unsplash.png);
+   background-size: 100%;
+}
+
+#header {
    height: 50px;
    padding: 60px;
-   width: max-content;
-
+   width:auto;
 }
+
+#btn{
+float: right;
+}
+
+#driver{
+margin-left: 10rem;
+text-align: float-left
+;
+}
+
